@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./bg1.jpg) ;
+    background-size: cover;
+    
+}
+.main{
+    margin-top: 200px;
+    width: 500px;
+    height: 700px;
+    background-color: grey;
+    border: 5px dashed black;
+   text-align: center;
+   -webkit-box-shadow: 0px 0px 21px 0px rgba(0,42,84,0.82);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0,42,84,0.82);
+    box-shadow: 0px 0px 21px 0px rgba(0,42,84,0.82);
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 20px;
+   padding: 10px;
+}
+.it{
+    margin-top: 100px;
+}
+.but button{
+    size: 30px;
+    padding: 20px;
+}
+.but{
+    margin-top: 10px;
+    
+}
+.back{
+    margin-top: 180px;
+}
