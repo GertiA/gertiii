@@ -9,20 +9,86 @@ body{
     margin-top: 200px;
     width: 500px;
     height: 700px;
-    background-color: grey;
-    border: 5px dashed black;
+
+    background-color: rgb(212, 212, 212);
+  
+    border: 5px solid black;
    text-align: center;
-   -webkit-box-shadow: 0px 0px 21px 0px rgba(0,42,84,0.82);
-    -moz-box-shadow: 0px 0px 21px 0px rgba(0,42,84,0.82);
-    box-shadow: 0px 0px 21px 0px rgba(0,42,84,0.82);
+   -webkit-box-shadow: 0px 0px 21px 0px rgba(10, 84, 0, 0.82);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(10, 84, 0, 0.82);
+    box-shadow: 0px 0px 21px 0px rgba(10, 84, 0, 0.82);
 }
 
+.starttext{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px dashed white;
+}
+
+#uname{
+   font-style: italic;
+    font-size: 30px;
+}
+.lol1{
+    margin-top: -60px;
+    padding: 30px;
+}
+#unamebox{
+    margin-top: -20px;
+}
+#username{
+    margin-top: -200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    
+}
+
+#pword{
+ 
+    font-style: italic;
+     font-size: 30px;
+ }
+ .lol2{
+     margin-top: -60px;
+    padding: 30px;
+ }
+ #pswbox{
+     margin-top: -20px;
+ }
+#password{
+    margin-top: -500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    
+}
 
 .it{
     margin-top: 100px;
+}   
+
+#submit{
+    
+    font-size: 20px;
 }
-
-
+#submit:hover{
+    
+    background-color: rgb(0, 195, 0);
+    font-size: 30px;
+    
+}
 .back{
-    margin-top: 150px;
+    margin-top:     10px;
+}
+#refresh1{
+    opacity: 50%;
+}
+#refresh1:hover{
+    
+    opacity: 100%;
+    color: red;
 }

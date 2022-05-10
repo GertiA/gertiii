@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./reg-foto.png);
+    background-size: cover;
+}
+
+.firsttext{
+    color: white;
+    text-align: center;
+    border: 2px dashed purple;
+}
+
+label{
+    color: white;
+}
+.block{
+    background: rgb(0, 0, 0);
+  filter: alpha(opacity=60);
+  /* IE */
+  -moz-opacity: 0.6;
+  /* Mozilla */
+  opacity: 0.6;
+  /* CSS3 */
+  position: absolute;
+  ;
+  height: 700px;
+  width: 1000px;
+}
+.head{
+    margin-top: 120px;
+    position: absolute;
+    width: 700px;
+    height: auto;
+    
+   
+    
+}
+
+
+
+
+#namebox{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#surnamebox{
+    border: 2px solid black;
+    border-radius: 5px; 
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#copmanybox{
+    border: 2px solid black;
+    border-radius: 5px; 
+    width: 422px;
+    height: 30px;
+    margin-left: 57px;  
+}
+
+#emailbox{
+    border: 2px solid black;
+    border-radius: 5px; 
+    width: 422px;
+    height: 30px;
+    margin-left: 85px;  
+}
+
+#areabox{
+    border: 2px solid black;
+    border-radius: 5px; 
+    width: 100px;
+    height: 30px;
+    margin-left: 40px; 
+}
+
+#nunberbox{
+    border: 2px solid black;
+    border-radius: 5px; 
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+}
+#categorybox{
+    border: 2px solid black;
+    border-radius: 5px; 
+    width: 430px;
+    height: 30px;
+    margin-left: 75px;
+}
+#enterbutton{
+    
+    
+    width: 100px;
+    height: 40px;
+        
+}
+
+#buttonback{
+    width: 100px;
+    height: 40px;
+        background-color: black;
+}

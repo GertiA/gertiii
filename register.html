@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Page</title>
+        <link rel="stylesheet" href="reg.css">
+        
+    </head>
+    <body>
+        
+        <div class="block"></div>
+        <div class="head">
+            <div class="firsttext">
+                <h1>Krijo Account te Ri!</h1>
+            </div>
+
+            <label for="">YOU</label>
+            <input type="text" name="" id="namebox" placeholder="Your Name">
+            <input type="text" name="" id="surnamebox" placeholder="Your Surname"><br>
+            <br>
+
+            <label for="">COMPANY</label> 
+            <input type="text" name="" id="copmanybox" height="" placeholder="Company name"><br><br>
+
+            <label for="">EMAIL</label>
+            <input type="text" name="" id="emailbox" placeholder="Your Email"><br><br>
+
+            <label for="">Phone Number</label>
+            <input type="text" name="" id="areabox" placeholder="Area Code">
+            <input type="text" name="" id="nunberbox" placeholder="Number"><br><br>
+
+            <label for="">Category</label>
+            <select name="Category" id="categorybox">
+                <option value="category"id="category">Pick Category</option>
+                <option value="">Fashion</option>
+                <option value="">Tech</option>
+                <option value="">Phones</option>
+                <option value="">Cars</option>
+                <option value="">PC</option>
+            </select>
+            <br><br>
+            
+                <div id="name-miss" style="height: 0px; opacity: 0%;">
+                    <label for=""  style="color: red; ;">Wrong! Name is Missing!</label><br>
+                </div>
+
+                <div id="surname-miss" style="height: 0px; opacity: 0%;">
+                <label for="" style="color: red; " >Wrong! Surname is Missing!</label><br>
+                </div>
+
+                <div id="company-miss" style="height: 0px; opacity: 0%;">
+                    <label for="" style="color: red; " >Wrong! Company is Missing!</label><br>
+                </div>
+
+                <div id="email-miss" style="height: 0px; opacity: 0%;">
+                    <label for="" style="color: red; " >Wrong! Email is Missing!</label><br>
+                </div>
+
+                <div id="phone-miss" style="height: 0px; opacity: 0%;">
+                    <label for="" style="color: red; " >Wrong! Phone Number is Missing!</label><br>
+                </div>
+
+                <div id="category-miss" style="height: 0px; opacity: 0%;">
+                    <label for="" style="color: red; " >Wrong! Category is Missing!</label>
+                </div>
+
+                <div id="info-miss" style="height: 0px; opacity: 0%;">
+                    <label for="" style="color: red; " >Wrong! Info is Missing!</label>
+                </div>
+
+            <br><br>
+
+            <center>
+                <input type="button" value="Enter" id="enterbutton" onclick=enter()> 
+             
+            <button id="buttonback"> <a href="main.html">Kthehu</a> </button>
+
+            </center>
+                <a href="register.html" style="text-decoration: none;">refresh</a>
+
+        </div>
+
+        
+
+
+        <script>function enter(){
+
+            var name=document.getElementById("namebox");
+            var surname=document.getElementById("surnamebox");
+            var company=document.getElementById("copmanybox");
+            var email=document.getElementById("emailbox");
+            var area=document.getElementById("areabox");
+            var number=document.getElementById("nunberbox");
+            var category=document.getElementById("categorybox");
+        
+            var namemiss=document.getElementById("name-miss");
+            var surnamemiss=document.getElementById("surname-miss");
+            var companymiss=document.getElementById("company-miss");
+            var emailmiss=document.getElementById("email-miss");
+            var phonemiss=document.getElementById("phone-miss");
+            var categorymiss=document.getElementById("category-miss");
+            var infomiss=document.getElementById("info-miss");
+            
+        
+            if(name.value =="" && surname.value =="" && company.value =="" && email.value ==""){
+                
+                infomiss.style.opacity=100;
+            
+            }
+            else if(name.value ==""){
+                namemiss.style.opacity=100;
+            }
+            else if(surname.value ==""){
+                surnamemiss.style.opacity=100;
+            }
+
+            else if(company.value ==""){
+                companymiss.style.opacity=100;
+            }
+
+            else if(email.value ==""){
+                emailmiss.style.opacity=100;
+            }
+            else if(area.value ==""){
+                phonemiss.style.opacity=100;
+            }
+            else if(number.value ==""){
+                phonemiss.style.opacity=100;
+            }
+            else if(category.value =="category"){
+                categorymiss.style.opacity=100;
+            }
+        }</script>
+    </body>
+</html>
