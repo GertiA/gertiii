@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./aboutus.css">
+</head>
+<body>
+    
+    <div class="div-container">
+
+        <div class="slideritem hide">
+
+            <img src="./nike-shop1.jpg" alt="" style="width: 100%; height: 500px" />
+            <title>First Item</title>
+
+        </div>
+
+        <div class="slideritem hide" >
+
+            <img src="./nike-shop2.jpg" alt="" style="width: 100%; height: 500px">
+            <title>Second Item</title>
+            
+        </div>
+        
+        <div class="slideritem hide" >
+
+            <img src="./nike-shop3.jpeg" alt="" style="width: 100%; height: 500px">
+            <title>Third Item</title>
+            
+        </div>
+
+
+    </div>
+    <p>labinotkrasniqi17</p>
+
+    <a href="main.html">kthehu</a>
+
+    <script>
+
+        init =  () => {
+            changeSlide();
+            }
+        window.onload = init;
+
+
+        var i=0;
+        changeSlide = (e = null) => {
+            var elements=document.getElementsByClassName('slideritem');
+
+            for(var el of elements)
+                el.classList.replace('show','hide')
+
+            if (i>2) i=0;
+
+
+
+            if (e !=null){
+                
+            } 
+            else 
+                elements[i++].classList.replace('hide', 'show')
+
+
+
+            if (e == null)
+            setTimeout(changeSlide, 700)
+        }
+
+
+    </script>
+</body>
+</html>
